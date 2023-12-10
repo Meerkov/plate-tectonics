@@ -78,3 +78,12 @@ nosetests.xml
 .pydevproject
 
 MANIFEST
+*.tlog
+*.pdb
+*.recipe
+*.filters
+*.vcxproj
+*.pc
+*.ilk
+*.sln
+*.cmake
