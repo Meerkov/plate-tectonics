@@ -87,3 +87,9 @@ MANIFEST
 *.ilk
 *.sln
 *.cmake
+*.log
+*.db
+*.vsidx
+*.user
+*.lock
+*.suo
