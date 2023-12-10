@@ -51,6 +51,7 @@ This should produce a library (libPlateTectonics.a).
 ### Windows
 
 ```
+pip install cmake
 cmake .
 cmake --build .
 ```
