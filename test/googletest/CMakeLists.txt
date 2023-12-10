@@ -40,13 +40,14 @@ endif()
 # ${gtest_BINARY_DIR}.
 # Language "C" is required for find_package(Threads).
 project(gtest CXX C)
-cmake_minimum_required(VERSION 2.6.2...3.22)
+cmake_minimum_required(VERSION 3.5)
 
 if (COMMAND set_up_hermetic_build)
   set_up_hermetic_build()
 endif()
 
 # Define helper functions and macros used by Google Test.
+cmake_policy(VERSION 3.27)
 include(cmake/internal_utils.cmake)
 
 config_compiler_and_linker()  # Defined in internal_utils.cmake.
