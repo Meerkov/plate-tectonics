@@ -4,15 +4,11 @@
 #include <cstdlib>
 #include "map_drawing.hpp"
 #include <stdio.h>
-#include <execinfo.h>
 #include <signal.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <cstdlib>
 #include <iostream>
 #include <utils.hpp>
-
-#include <execinfo.h>
 
 void produce_image_gray(float* heightmap, int width, int height, const char* filename)
 {

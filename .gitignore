@@ -93,3 +93,6 @@ MANIFEST
 *.user
 *.lock
 *.suo
+*.db-shm
+*.db-wal
+*.opendb
